@@ -2,7 +2,7 @@ import React from "react";
 
 function Modal() {
   return (
-    <div className="border-2 ">
+    <div className="border-2 test ">
       <h3>Select Timezone</h3>
       <p>Please select your timezone</p>
       <select>
