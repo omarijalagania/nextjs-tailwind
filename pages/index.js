@@ -1,8 +1,8 @@
 import Head from "next/head";
 
 import Modal from "../components/Modal/Modal";
-import SellProperty from "../components/Modal/Properties/SellProperty";
-import BuyProperty from "../components/Modal/Properties/BuyProperty";
+import SellProperty from "../components/Properties/SellProperty";
+import BuyProperty from "../components/Properties/BuyProperty";
 import BookingInfo from "../components/Booking/BookingInfo";
 
 export default function Home() {
