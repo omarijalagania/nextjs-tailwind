@@ -4,7 +4,7 @@ const SellProperty = () => {
   return (
     <div class="max-w-screen-lg bg-white shadow-2xl rounded-lg mx-auto text-center py-12 mt-4 rounded border-l-4 border-gray-500 flex justify-between">
       <div className="ml-10">
-        <div>Buy Property</div>
+        <div>Sell Property</div>
         <span>1 hr.</span>
       </div>
 
