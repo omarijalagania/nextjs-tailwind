@@ -9,10 +9,10 @@ import { Fragment } from "react";
 
 export default function Home() {
   return (
-    <Fragment>
+    <div className='text-center'>
       <TimeSelect />
       <Modal />
       <BookingInfo />
-    </Fragment>
+    </div>
   );
 }
