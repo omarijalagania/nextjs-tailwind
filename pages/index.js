@@ -5,15 +5,14 @@ import SellProperty from "../components/Properties/SellProperty";
 import BuyProperty from "../components/Properties/BuyProperty";
 import BookingInfo from "../components/Booking/BookingInfo";
 import TimeSelect from "../components/TimeSelect/TimeSelect";
+import { Fragment } from "react";
 
 export default function Home() {
   return (
-    <div className="text-center">
-      <p className="text-red-400 font-bold my-4">Tailwind With NextJs</p>
+    <Fragment>
+      <TimeSelect />
       <Modal />
       <BookingInfo />
-      <TimeSelect/>
-     
-    </div>
+    </Fragment>
   );
 }
