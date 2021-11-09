@@ -1,5 +1,6 @@
 import React from "react";
 import BuyProperty from "../Properties/BuyProperty";
+import SelectedProperties from "../Properties/SelectedProperties/SelectedProperties";
 import SellProperty from "../Properties/SellProperty";
 
 const TimeSelect = () => {
@@ -67,6 +68,7 @@ const TimeSelect = () => {
       </div>
       <BuyProperty />
       <SellProperty />
+      <SelectedProperties/>
     </div>
   );
 };
