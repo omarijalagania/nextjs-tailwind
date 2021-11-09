@@ -24,11 +24,23 @@ const TimeSelect = () => {
         </button>
       </div>
       <div className="flex justify-between">
-        <div>
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Back
-          </button>
-        </div>
+        <button className="flex ml-24">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mr-2"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+          <div className="">Back</div>
+        </button>
         <div className="flex">
           <div className="mr-4">
             <p>Our time: 07:28 UTC (GMT) +2</p>
