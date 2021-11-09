@@ -1,4 +1,5 @@
 import React from "react";
+import Confirmation from "../Confirmation/Confirmation";
 import BuyProperty from "../Properties/BuyProperty";
 import SelectedProperties from "../Properties/SelectedProperties/SelectedProperties";
 import SellProperty from "../Properties/SellProperty";
@@ -69,6 +70,7 @@ const TimeSelect = () => {
       <BuyProperty />
       <SellProperty />
       <SelectedProperties/>
+      <Confirmation/>
     </div>
   );
 };
