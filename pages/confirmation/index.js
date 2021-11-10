@@ -1,6 +1,6 @@
 import React from 'react'
-import ConfirmBooking from './ConfirmBooking/ConfirmBooking'
-import Form from './Form/Form'
+import ConfirmBooking from '../../components/Confirmation/ConfirmBooking/ConfirmBooking'
+import Form from '../../components/Confirmation/Form/Form'
 
 const Confirmation = () => {
     return (
