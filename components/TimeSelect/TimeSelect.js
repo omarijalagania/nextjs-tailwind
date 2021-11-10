@@ -25,25 +25,25 @@ const TimeSelect = ({ children }) => {
         </button>
       </div>
       <div className="flex justify-between">
-        <button className="flex ml-24">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6 mr-2"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M15 19l-7-7 7-7"
-            />
-          </svg>
-          <Link href="/">
+        <Link href="/">
+          <button className="flex ml-24">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 mr-2"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
             <div className="">Back</div>
-          </Link>
-        </button>
+          </button>
+        </Link>
         <div className="flex">
           <div className="mr-4">
             <p>Our time: 07:28 UTC (GMT) +2</p>
