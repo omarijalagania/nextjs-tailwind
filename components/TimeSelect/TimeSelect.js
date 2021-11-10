@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Confirmation from "../Confirmation/Confirmation";
 import Modal from "../Modal/Modal";
 import BuyProperty from "../Properties/BuyProperty";
-import SelectedProperties from "../Properties/SelectedProperties/SelectedProperties";
+import SelectedProperties from "../../pages/selected";
 import SellProperty from "../Properties/SellProperty";
 
-const TimeSelect = () => {
+const TimeSelect = ({children}) => {
   const [modalOpen, setModalOpen] = useState(false);
   return (
     <div className="mx-80 relative">
@@ -75,10 +75,7 @@ const TimeSelect = () => {
         </div>
       </div>
       {modalOpen && <Modal setOpenModal={setModalOpen} />}
-      <BuyProperty />
-      <SellProperty />
-      <SelectedProperties />
-      <Confirmation />
+ {children}
     </div>
   );
 };
