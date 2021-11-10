@@ -24,7 +24,7 @@ const TimeSelect = ({ children }) => {
           </svg>
         </button>
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between mb-10">
         <Link href="/">
           <button className="flex ml-24">
             <svg
