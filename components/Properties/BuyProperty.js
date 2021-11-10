@@ -31,9 +31,9 @@ const SellProperty = () => {
           </div>
         </div>
       </div>
-      <div class=" flex justify-end">
-        <button class="inline-flex justify-center rounded-full bg-black shadow w-48 h-12 mr-5 mt-1">
-          <a href="#" class="text-green-300 font-bold mt-3">
+      <div className=" flex justify-end">
+        <button className="inline-flex justify-center rounded-full bg-black shadow w-48 h-12 mr-5 mt-1">
+          <a href="#" className="text-green-300 font-bold mt-3">
             Select
           </a>
         </button>

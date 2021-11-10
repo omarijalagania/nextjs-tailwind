@@ -11,7 +11,7 @@ const TimeSelect = () => {
         <button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-11 w-11"
+            className="h-11 w-11"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -29,7 +29,7 @@ const TimeSelect = () => {
         <button className="flex ml-24">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 mr-2"
+            className="h-6 w-6 mr-2"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -52,7 +52,7 @@ const TimeSelect = () => {
           <button className="bg-black w-11 h-11 rounded-full mr-32 mt-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-7 w-7 text-gray-200 mx-2 my-2"
+              className="h-7 w-7 text-gray-200 mx-2 my-2"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"

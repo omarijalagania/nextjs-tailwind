@@ -6,7 +6,7 @@ const ConfirmBooking = () => {
       <div className="bg-green-300 w-20 h-20 rounded-full mt-10 ml-32">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-16 w-16 mt-2 ml-2"
+          className="h-16 w-16 mt-2 ml-2"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -56,9 +56,9 @@ const ConfirmBooking = () => {
           </div>
         </div>
       </div>
-      <div class=" flex justify-center pb-10 pl-7">
-        <button class="inline-flex justify-center rounded-full bg-black shadow w-48 h-12 mr-5 mt-1">
-          <a href="#" class="text-green-300 font-bold mt-3">
+      <div className=" flex justify-center pb-10 pl-7">
+        <button className="inline-flex justify-center rounded-full bg-black shadow w-48 h-12 mr-5 mt-1">
+          <a href="#" className="text-green-300 font-bold mt-3">
             Confirm booking
           </a>
         </button>
