@@ -35,12 +35,12 @@ const ConfirmBooking = () => {
         </div>
       </div>
       <div>
-        <div className="ml-10 pb-10 pr-10">
+        <div className="ml-10 pb-7 pr-10">
           <div className="">
             <div>
               <label className="inline-flex items-center">
                 <input type="checkbox" className="form-checkbox " />
-                <span className="ml-2 font-light text-sm mt-5">
+                <span className="ml-2 font-light text-xs pt-3  text-left">
                   I agree with SimplyBook.me Terms & Conditions.
                 </span>
               </label>
@@ -48,7 +48,7 @@ const ConfirmBooking = () => {
             <div>
               <label className="flex  items-center">
                 <input type="checkbox" className="form-checkbox" />
-                <span className="ml-2 font-light text-sm mt-5">
+                <span className="ml-2 font-light text-xs pt-3 text-left">
                   Be one of the first to receive messages about our promotions and other cool stuff.
                 </span>
               </label>
@@ -57,8 +57,8 @@ const ConfirmBooking = () => {
         </div>
       </div>
       <div className=" flex justify-center pb-10 pl-7">
-        <button className="inline-flex justify-center rounded-full bg-black shadow w-48 h-12 mr-5 mt-1">
-          <a href="#" className="text-custom-green font-bold mt-3">
+        <button className="inline-flex justify-center rounded-full bg-black shadow w-60 h-10 mr-7 ">
+          <a href="#" className="text-custom-green font-bold mt-2">
             Confirm booking
           </a>
         </button>
