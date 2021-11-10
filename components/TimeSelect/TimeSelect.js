@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import Confirmation from "../Confirmation/Confirmation";
 import Modal from "../Modal/Modal";
-import BuyProperty from "../Properties/BuyProperty";
-import SelectedProperties from "../../pages/selected";
-import SellProperty from "../Properties/SellProperty";
+import Link from "next/link";
 
-const TimeSelect = ({children}) => {
+const TimeSelect = ({ children }) => {
   const [modalOpen, setModalOpen] = useState(false);
   return (
     <div className="mx-80 relative">
@@ -43,7 +40,9 @@ const TimeSelect = ({children}) => {
               d="M15 19l-7-7 7-7"
             />
           </svg>
-          <div className="">Back</div>
+          <Link href="/">
+            <div className="">Back</div>
+          </Link>
         </button>
         <div className="flex">
           <div className="mr-4">
@@ -75,7 +74,7 @@ const TimeSelect = ({children}) => {
         </div>
       </div>
       {modalOpen && <Modal setOpenModal={setModalOpen} />}
- {children}
+      {children}
     </div>
   );
 };
