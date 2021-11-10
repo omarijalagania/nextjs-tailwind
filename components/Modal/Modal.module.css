@@ -2,6 +2,19 @@
   width: 400px;
   height: 300px;
   margin: 0 auto;
+  
+}
+.modalBackground {
+  opacity: 0.9;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
 }
 
 .dropDown {

@@ -9,9 +9,8 @@ import { Fragment } from "react";
 
 export default function Home() {
   return (
-    <div className='text-center'>
+    <div className="text-center">
       <TimeSelect />
-      <Modal />
       <BookingInfo />
     </div>
   );

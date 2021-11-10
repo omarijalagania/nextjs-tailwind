@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Confirmation from "../Confirmation/Confirmation";
+import Modal from "../Modal/Modal";
 import BuyProperty from "../Properties/BuyProperty";
 import SelectedProperties from "../Properties/SelectedProperties/SelectedProperties";
 import SellProperty from "../Properties/SellProperty";
 
 const TimeSelect = () => {
+  const [modalOpen, setModalOpen] = useState(false);
   return (
-    <div className="mx-80">
+    <div className="mx-80 relative">
       <div className="flex justify-end mr-20 mb-20">
         <button>
           <svg
@@ -49,7 +51,12 @@ const TimeSelect = () => {
             <p>Your time: 09:28 Asia/Tbilisi</p>
           </div>
 
-          <button className="bg-black w-11 h-11 rounded-full mr-32 mt-1">
+          <button
+            onClick={() => {
+              setModalOpen(true);
+            }}
+            className="bg-black w-11 h-11 rounded-full mr-32 mt-1"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-7 w-7 text-gray-200 mx-2 my-2"
@@ -67,10 +74,11 @@ const TimeSelect = () => {
           </button>
         </div>
       </div>
+      {modalOpen && <Modal setOpenModal={setModalOpen} />}
       <BuyProperty />
       <SellProperty />
-      <SelectedProperties/>
-      <Confirmation/>
+      <SelectedProperties />
+      <Confirmation />
     </div>
   );
 };
