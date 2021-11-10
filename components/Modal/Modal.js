@@ -11,7 +11,7 @@ function Modal() {
         <select className="mt-3 mb-3">
           <option>Asia/Tbilisi(09:30)</option>
         </select>
-        <button className="bg-black text-green-200 rounded-full m-3 py-2">
+        <button className="bg-black text-custom-green rounded-full m-3 py-2">
           Set my Timezone
         </button>
         <button>Cancel</button>

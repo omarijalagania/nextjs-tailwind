@@ -4,7 +4,7 @@ const SellProperty = () => {
   return (
     <div className="max-w-screen-lg bg-white shadow-2xl rounded-lg mx-auto text-center py-8 mt-4 border-l-4 border-black flex justify-between">
       <div className="ml-10 flex">
-        <div className="bg-green-300 w-12 h-12 rounded-full mr-5 mt-1">
+        <div className="bg-custom-green w-12 h-12 rounded-full mr-5 mt-1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-10 w-10 mt-1 ml-1"
@@ -33,7 +33,7 @@ const SellProperty = () => {
       </div>
       <div className=" flex justify-end">
         <button className="inline-flex justify-center rounded-full bg-black shadow w-48 h-12 mr-5 mt-1">
-          <a href="#" className="text-green-300 font-bold mt-3">
+          <a href="#" className="text-custom-green font-bold mt-3">
             Select
           </a>
         </button>
