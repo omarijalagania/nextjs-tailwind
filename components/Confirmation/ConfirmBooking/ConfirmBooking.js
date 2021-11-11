@@ -2,7 +2,7 @@ import React from "react";
 
 const ConfirmBooking = () => {
   return (
-    <div className="w-3/12  shadow-lg flex  flex-col ml-10">
+    <div className="w-80  shadow-lg flex  flex-col ml-10">
       <div className="bg-custom-green w-20 h-20 rounded-full mt-10 ml-32">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ const ConfirmBooking = () => {
         </svg>
       </div>
       <div className="flex justify-start pr-40 mt-10 flex-col pb-10">
-        <h1 className="font-bold ml-6">Buy Property</h1>
+        <h1 className="font-bold ml-9">Buy Property</h1>
         <div className="flex ml-10 w-max mt-6">
           <p className="mr-20">Date:</p>
           <p className="font-bold">09-11-2021</p>
