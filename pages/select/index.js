@@ -12,7 +12,7 @@ const SelectedProperties = () => {
                 </div>
       </div>
       <div className=" flex justify-end">
-        <Link href="/confirmation">
+        <Link href="/calendar">
         <button className="inline-flex justify-center rounded-full bg-black shadow w-48 h-12 mr-5 mt-1">
           <a href="#" className="text-custom-green font-bold mt-3">
             Select
